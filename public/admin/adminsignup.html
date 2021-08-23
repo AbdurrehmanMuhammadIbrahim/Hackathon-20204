@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../admin/admin.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyAxzE-vIo6wzb6VFyK6p6eQj3UHTstHErQ",
+    authDomain: "hackathon-2dec8.firebaseapp.com",
+    projectId: "hackathon-2dec8",
+    storageBucket: "hackathon-2dec8.appspot.com",
+    messagingSenderId: "614217719151",
+    appId: "1:614217719151:web:8f07f82192d005cf695c9a",
+    measurementId: "G-CTZB9QVV6C"
+  };
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+
+
+
+<body id="document">
+
+    <!-- <div class="h">
+        <h1>
+            <marquee width="60%" direction="left"> LOGIN AND SIGNUP </marquee>
+
+        </h1>
+    </div> -->
+
+
+    <div class="container d-flex justify-content-center mt-5">
+        <div id="card">
+          
+            <h1 class="text-center pt-4">THE <br> FOODIEESS</h1>
+            <div class="form-group container">
+
+                <input type="text" name="name" placeholder="Admin Name"
+                class="form-control form" id="name"><br>
+               
+
+                     <input type="email" name="email" placeholder="email address"
+                    class="form-control form" id="email"><br>
+
+                <input type="password" name="password" placeholder="password" class="form-control" id="pass"><br>
+                <input type="text" name="name" placeholder="country"
+                class="form-control form" id="country"><br>
+                <input type="text" name="name" placeholder="city"
+                class="form-control form" id="city"><br>
+                  <input type="file" src="" name="img"  name="email" placeholder="Food Image "
+            class="form-control form" id="image"> 
+            <label id="upProgress"></label><br> 
+            </div>
+            <!-- <input type="file" src="" name="img"  name="email" placeholder="Food Image "
+            class="form-control form" id="page-url"> -->
+            <div class="text-center pb-4 pt-3">
+                <div class="px-3">
+                    <h2 class="else"><span class="else2"> Or use these to login </span></h2>
+                </div>
+                <div class="pt-3 d-flex flex-row px-3">
+                    <button type="button" class="btn btn-success fb mr-2" onclick="signup()">sign up</button>
+                    <button type="button" class="btn btn-success fb mr-2"  > <a href="../admin/adminsignin.html" id="sign"> sign in</a> </button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    
+
+    <script src="../admin/admin.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+</body>
+
+</html>

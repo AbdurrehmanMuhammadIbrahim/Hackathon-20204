@@ -1,0 +1,135 @@
+/* #document{
+    background-image: url("./stock-footage-kids-cubes-on-blue-background-loop-stop-motion-seamless-looping-hd-x.jpg");
+   
+   
+} */
+#document{
+  background-image: url("../images/staggered-lockdowns-start-to-bite-battered-restaurants.jpg");
+  background-repeat: no-repeat;
+ background-size: 100%;
+}
+.h{
+    background-color: rgb(65, 134, 224);
+    text-align: center;
+}
+#card {
+    /* background-image: url("https://i.imgur.com/5ehnBAe.jpg"); */
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    width: 380px;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom:20px ;
+    
+}
+.else {
+    font-size: 9px;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    text-align: center
+}
+.else2 {
+    padding: 10px;
+    background-color: rgb(0, 162, 255);
+}
+
+.mr-2{
+  width: 50%;
+
+
+
+}
+ #anker{
+     text-decoration: none;
+     color: white;
+ }
+#home{
+    background-color: skyblue;
+}
+#sign{
+  text-decoration: none;
+  color:white;
+}
+
+ #signin{
+  width: 100%;
+} 
+  
+/* picture styling */
+ img{height: 200px; width: 200px; border: 2px solid black;}
+   
+
+  #items{
+   background-color: #371659;
+   padding-left: 50%;
+ } 
+ #rest{
+     background-image: url("../images/staggered-lockdowns-start-to-bite-battered-restaurants.jpg");
+     background-repeat: no-repeat;
+    background-size: 100% ;
+ }
+
+ .navbar{
+    background-color: red;
+
+}
+#flex button{
+float: right !important;
+background-color: black;
+color: white;
+ border-radius: 50px;
+ border: 1px solid #000 ;
+}
+
+#dropdownMenuButton1{
+    background-color: white;
+    color: black;
+    width: 80%;
+}
+#card2{
+    background-color: black;
+    color: white;
+    width: 380px;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+#sav{
+   border-radius: 50px ;
+   width: 50%;
+   background-color: red;
+   color: black;
+   border: 2px solid black;
+   
+}
+
+
+/* landing style */
+*{
+margin: 0%;
+padding: 0%;
+text-align: center;
+align-content: center;
+color: white;
+}
+#landbtn{
+ color: black;
+ text-decoration: none;
+ font-size: larger;
+}
+.btns{
+ 
+/* width: 10%; */
+/* padding: 7px;
+margin-left: 50px;  */
+background-color: red;
+color: black;
+width: 30%;
+
+}
+#land{
+    background-image: url("../images/istockphoto-1159992039-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
